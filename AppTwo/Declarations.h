@@ -11,9 +11,13 @@
 @interface Declarations : NSObject
 
 extern  NSMutableArray *maStates;
-extern  NSMutableArray *maImages;
+extern  NSMutableArray *maStateCrest;
+extern  NSMutableArray *maCity;
+extern  NSMutableArray *maCityPhoto;
 
 extern  NSString        *strSelectedState;
-extern  NSString        *strSelectedImg;
+extern  NSString        *strSelectedStateCrest;
+extern  NSString        *strSelectedCity;
+extern  NSString        *strSelectedCityPhoto;
 
 @end

@@ -7,6 +7,7 @@
 //
 
 #import "StateDetail.h"
+#import "Declarations.h"
 
 @interface StateDetail ()
 
@@ -27,6 +28,9 @@
 {
     [super viewDidLoad];
     // Do any additional setup after loading the view.
+    NSLog(@"Selected State Crest %@", strSelectedStateCrest);
+    self.imgStateCrest.image= [UIImage imageNamed:strSelectedStateCrest];
+    self.lblStateName.text= strSelectedState;
 }
 
 - (void)didReceiveMemoryWarning

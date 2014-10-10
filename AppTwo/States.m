@@ -9,6 +9,7 @@
 #import "States.h"
 #import "Declarations.h"
 #import "cellState.h"
+#import "StateDetail.h"
 
 @interface States ()
 
@@ -30,7 +31,8 @@
     [super viewDidLoad];
     // Do any additional setup after loading the view.
     maStates = [NSMutableArray arrayWithObjects: @"JALISCO", @"CHIAPAS", @"CHIHUAHUA", @"GUANAJUATO", @"YUCATAN", @"QUINTANA ROO", @"SAN LUIS POTOSI", @"OAXACA", nil ];
-    //maStates     =  [NSMutableArray arrayWithObjects:
+    
+    maStateCrest = [NSMutableArray arrayWithObjects: @"jalisco.png", @"chiapas.png", @"chihuahua.png", @"guanajuato.gif", @"yucatan.png", @"quintanaroo.png", @"sanluis.png", @"oaxaca.png", nil ];
 }
 
 - (void)didReceiveMemoryWarning
@@ -70,7 +72,7 @@
 //-------------------------------------------------------------------------------
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath
 {
-    NSLog(@"cellFamily");
+    //NSLog(@"cellFamily");
     static NSString *CellIdentifier = @"cellState";
     
     cellState *cell = (cellState *)[tableView dequeueReusableCellWithIdentifier:CellIdentifier];
@@ -88,13 +90,15 @@
 - (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath
 {
     strSelectedState     = [NSString stringWithFormat:@"%@", maStates[indexPath.row]];
+    strSelectedStateCrest= [NSString stringWithFormat:@"%@", maStateCrest[indexPath.row]];
     
     NSLog(@"strSelectedState %@", strSelectedState);
     
     NSString * storyboardName = @"Main";
     UIStoryboard *storyboard = [UIStoryboard storyboardWithName:storyboardName bundle: nil];
-    UIViewController * vc = [storyboard instantiateViewControllerWithIdentifier:@"Details"];
-    [self presentViewController:vc animated:YES completion:nil];
+    UIViewController * vct = [storyboard instantiateViewControllerWithIdentifier:@"StateDetail"];
+    //UIViewController * vc = [storyboard instantiateViewControllerWithIdentifier:@"StateDetail"];
+    [self presentViewController:vct animated:YES completion:nil];
 }
 
 

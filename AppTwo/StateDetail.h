@@ -9,5 +9,7 @@
 #import <UIKit/UIKit.h>
 
 @interface StateDetail : UIViewController
+@property (strong, nonatomic) IBOutlet UIImageView *imgStateCrest;
+@property (strong, nonatomic) IBOutlet UILabel *lblStateName;
 
 @end

@@ -13,7 +13,14 @@
 		B89D974419E78AA800738B7B /* next.png in Resources */ = {isa = PBXBuildFile; fileRef = B89D974319E78AA800738B7B /* next.png */; };
 		B89D974719E78C9100738B7B /* cellState.m in Sources */ = {isa = PBXBuildFile; fileRef = B89D974619E78C9100738B7B /* cellState.m */; };
 		B89D974A19E7919800738B7B /* Declarations.m in Sources */ = {isa = PBXBuildFile; fileRef = B89D974919E7919800738B7B /* Declarations.m */; };
-		B89D974D19E7968C00738B7B /* Details.m in Sources */ = {isa = PBXBuildFile; fileRef = B89D974C19E7968C00738B7B /* Details.m */; };
+		B89D975019E7AF7900738B7B /* chiapas.png in Resources */ = {isa = PBXBuildFile; fileRef = B89D974E19E7AF7900738B7B /* chiapas.png */; };
+		B89D975119E7AF7900738B7B /* chihuahua.png in Resources */ = {isa = PBXBuildFile; fileRef = B89D974F19E7AF7900738B7B /* chihuahua.png */; };
+		B89D975419E7AF8A00738B7B /* quintanaroo.png in Resources */ = {isa = PBXBuildFile; fileRef = B89D975219E7AF8A00738B7B /* quintanaroo.png */; };
+		B89D975519E7AF8A00738B7B /* sanluis.png in Resources */ = {isa = PBXBuildFile; fileRef = B89D975319E7AF8A00738B7B /* sanluis.png */; };
+		B89D975719E7AFA200738B7B /* guanajuato.gif in Resources */ = {isa = PBXBuildFile; fileRef = B89D975619E7AFA200738B7B /* guanajuato.gif */; };
+		B89D975919E7AFBF00738B7B /* jalisco.png in Resources */ = {isa = PBXBuildFile; fileRef = B89D975819E7AFBF00738B7B /* jalisco.png */; };
+		B89D975B19E7AFD000738B7B /* yucatan.png in Resources */ = {isa = PBXBuildFile; fileRef = B89D975A19E7AFD000738B7B /* yucatan.png */; };
+		B89D975D19E7B07600738B7B /* oaxaca.png in Resources */ = {isa = PBXBuildFile; fileRef = B89D975C19E7B07600738B7B /* oaxaca.png */; };
 		B8AE466919E64FA900C32AB7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B8AE466819E64FA900C32AB7 /* Foundation.framework */; };
 		B8AE466B19E64FA900C32AB7 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B8AE466A19E64FA900C32AB7 /* CoreGraphics.framework */; };
 		B8AE466D19E64FA900C32AB7 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B8AE466C19E64FA900C32AB7 /* UIKit.framework */; };
@@ -52,8 +59,14 @@
 		B89D974619E78C9100738B7B /* cellState.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = cellState.m; sourceTree = "<group>"; };
 		B89D974819E7919800738B7B /* Declarations.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Declarations.h; sourceTree = "<group>"; };
 		B89D974919E7919800738B7B /* Declarations.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Declarations.m; sourceTree = "<group>"; };
-		B89D974B19E7968C00738B7B /* Details.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Details.h; sourceTree = "<group>"; };
-		B89D974C19E7968C00738B7B /* Details.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Details.m; sourceTree = "<group>"; };
+		B89D974E19E7AF7900738B7B /* chiapas.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = chiapas.png; sourceTree = "<group>"; };
+		B89D974F19E7AF7900738B7B /* chihuahua.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = chihuahua.png; sourceTree = "<group>"; };
+		B89D975219E7AF8A00738B7B /* quintanaroo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = quintanaroo.png; sourceTree = "<group>"; };
+		B89D975319E7AF8A00738B7B /* sanluis.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = sanluis.png; sourceTree = "<group>"; };
+		B89D975619E7AFA200738B7B /* guanajuato.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = guanajuato.gif; sourceTree = "<group>"; };
+		B89D975819E7AFBF00738B7B /* jalisco.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = jalisco.png; sourceTree = "<group>"; };
+		B89D975A19E7AFD000738B7B /* yucatan.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = yucatan.png; sourceTree = "<group>"; };
+		B89D975C19E7B07600738B7B /* oaxaca.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = oaxaca.png; sourceTree = "<group>"; };
 		B8AE466519E64FA900C32AB7 /* AppTwo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AppTwo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B8AE466819E64FA900C32AB7 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		B8AE466A19E64FA900C32AB7 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -111,6 +124,14 @@
 		B89D974219E78A8D00738B7B /* Images */ = {
 			isa = PBXGroup;
 			children = (
+				B89D975C19E7B07600738B7B /* oaxaca.png */,
+				B89D975A19E7AFD000738B7B /* yucatan.png */,
+				B89D975819E7AFBF00738B7B /* jalisco.png */,
+				B89D975619E7AFA200738B7B /* guanajuato.gif */,
+				B89D975219E7AF8A00738B7B /* quintanaroo.png */,
+				B89D975319E7AF8A00738B7B /* sanluis.png */,
+				B89D974E19E7AF7900738B7B /* chiapas.png */,
+				B89D974F19E7AF7900738B7B /* chihuahua.png */,
 				B89D974319E78AA800738B7B /* next.png */,
 			);
 			name = Images;
@@ -158,8 +179,6 @@
 				B8AE466F19E64FA900C32AB7 /* Supporting Files */,
 				B89D974819E7919800738B7B /* Declarations.h */,
 				B89D974919E7919800738B7B /* Declarations.m */,
-				B89D974B19E7968C00738B7B /* Details.h */,
-				B89D974C19E7968C00738B7B /* Details.m */,
 			);
 			path = AppTwo;
 			sourceTree = "<group>";
@@ -285,10 +304,18 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B89D975B19E7AFD000738B7B /* yucatan.png in Resources */,
+				B89D975119E7AF7900738B7B /* chihuahua.png in Resources */,
 				B8AE468119E64FAA00C32AB7 /* Images.xcassets in Resources */,
 				B8AE467319E64FAA00C32AB7 /* InfoPlist.strings in Resources */,
+				B89D975919E7AFBF00738B7B /* jalisco.png in Resources */,
+				B89D975019E7AF7900738B7B /* chiapas.png in Resources */,
+				B89D975D19E7B07600738B7B /* oaxaca.png in Resources */,
 				B89D974419E78AA800738B7B /* next.png in Resources */,
+				B89D975719E7AFA200738B7B /* guanajuato.gif in Resources */,
+				B89D975519E7AF8A00738B7B /* sanluis.png in Resources */,
 				B8AE467C19E64FAA00C32AB7 /* Main.storyboard in Resources */,
+				B89D975419E7AF8A00738B7B /* quintanaroo.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -312,7 +339,6 @@
 				B89D974A19E7919800738B7B /* Declarations.m in Sources */,
 				B89D974719E78C9100738B7B /* cellState.m in Sources */,
 				B8AE467919E64FAA00C32AB7 /* AppDelegate.m in Sources */,
-				B89D974D19E7968C00738B7B /* Details.m in Sources */,
 				B89D974019E77F4700738B7B /* Friends.m in Sources */,
 				B8AE467519E64FAA00C32AB7 /* main.m in Sources */,
 				B89D973A19E77C3900738B7B /* States.m in Sources */,

@@ -8,7 +8,7 @@
 
 #import <UIKit/UIKit.h>
 	
-@interface States : UIViewController <UITableViewDataSource, UITableViewDelegate>
+@interface States : UIViewController
 
 @property (strong, nonatomic) IBOutlet UITableView *tblStates;
 

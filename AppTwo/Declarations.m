@@ -11,9 +11,13 @@
 @implementation Declarations
 
 NSMutableArray *maStates;
-NSMutableArray *maImages;
+NSMutableArray *maStateCrest;
+NSMutableArray *maCity;
+NSMutableArray *maCityPhoto;
 
 NSString        *strSelectedState;
-NSString        *strSelectedImg;
+NSString        *strSelectedStateCrest;
+NSString        *strSelectedCity;
+NSString        *strSelectedCityPhoto;
 
 @end
