@@ -6,13 +6,13 @@
 //  Copyright (c) 2014 JuanRocha. All rights reserved.
 //
 
-#import "ViewController.h"
+#import "WelcomeScreen.h"
 
-@interface ViewController ()
+@interface WelcomeScreen ()
 
 @end
 
-@implementation ViewController
+@implementation WelcomeScreen
 
 - (void)viewDidLoad
 {
@@ -26,4 +26,6 @@
     // Dispose of any resources that can be recreated.
 }
 
+- (IBAction)btnFriends:(id)sender {
+}
 @end
