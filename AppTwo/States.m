@@ -97,7 +97,6 @@
     NSString * storyboardName = @"Main";
     UIStoryboard *storyboard = [UIStoryboard storyboardWithName:storyboardName bundle: nil];
     UIViewController * vct = [storyboard instantiateViewControllerWithIdentifier:@"StateDetail"];
-    //UIViewController * vc = [storyboard instantiateViewControllerWithIdentifier:@"StateDetail"];
     [self presentViewController:vct animated:YES completion:nil];
 }
 

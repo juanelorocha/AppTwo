@@ -21,6 +21,10 @@
 		B89D975919E7AFBF00738B7B /* jalisco.png in Resources */ = {isa = PBXBuildFile; fileRef = B89D975819E7AFBF00738B7B /* jalisco.png */; };
 		B89D975B19E7AFD000738B7B /* yucatan.png in Resources */ = {isa = PBXBuildFile; fileRef = B89D975A19E7AFD000738B7B /* yucatan.png */; };
 		B89D975D19E7B07600738B7B /* oaxaca.png in Resources */ = {isa = PBXBuildFile; fileRef = B89D975C19E7B07600738B7B /* oaxaca.png */; };
+		B89D976119E7BE7900738B7B /* guadalajara.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B89D975E19E7BE7900738B7B /* guadalajara.jpg */; };
+		B89D976219E7BE7900738B7B /* puertovallarta.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B89D975F19E7BE7900738B7B /* puertovallarta.jpg */; };
+		B89D976319E7BE7900738B7B /* tequila.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B89D976019E7BE7900738B7B /* tequila.jpg */; };
+		B89D976619E7C08200738B7B /* cellCity.m in Sources */ = {isa = PBXBuildFile; fileRef = B89D976519E7C08200738B7B /* cellCity.m */; };
 		B8AE466919E64FA900C32AB7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B8AE466819E64FA900C32AB7 /* Foundation.framework */; };
 		B8AE466B19E64FA900C32AB7 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B8AE466A19E64FA900C32AB7 /* CoreGraphics.framework */; };
 		B8AE466D19E64FA900C32AB7 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B8AE466C19E64FA900C32AB7 /* UIKit.framework */; };
@@ -67,6 +71,11 @@
 		B89D975819E7AFBF00738B7B /* jalisco.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = jalisco.png; sourceTree = "<group>"; };
 		B89D975A19E7AFD000738B7B /* yucatan.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = yucatan.png; sourceTree = "<group>"; };
 		B89D975C19E7B07600738B7B /* oaxaca.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = oaxaca.png; sourceTree = "<group>"; };
+		B89D975E19E7BE7900738B7B /* guadalajara.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = guadalajara.jpg; path = Images/guadalajara.jpg; sourceTree = "<group>"; };
+		B89D975F19E7BE7900738B7B /* puertovallarta.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = puertovallarta.jpg; path = Images/puertovallarta.jpg; sourceTree = "<group>"; };
+		B89D976019E7BE7900738B7B /* tequila.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = tequila.jpg; path = Images/tequila.jpg; sourceTree = "<group>"; };
+		B89D976419E7C08200738B7B /* cellCity.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = cellCity.h; sourceTree = "<group>"; };
+		B89D976519E7C08200738B7B /* cellCity.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = cellCity.m; sourceTree = "<group>"; };
 		B8AE466519E64FA900C32AB7 /* AppTwo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AppTwo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B8AE466819E64FA900C32AB7 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		B8AE466A19E64FA900C32AB7 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -117,6 +126,8 @@
 			children = (
 				B89D974519E78C9100738B7B /* cellState.h */,
 				B89D974619E78C9100738B7B /* cellState.m */,
+				B89D976419E7C08200738B7B /* cellCity.h */,
+				B89D976519E7C08200738B7B /* cellCity.m */,
 			);
 			name = Customized;
 			sourceTree = "<group>";
@@ -124,6 +135,9 @@
 		B89D974219E78A8D00738B7B /* Images */ = {
 			isa = PBXGroup;
 			children = (
+				B89D975E19E7BE7900738B7B /* guadalajara.jpg */,
+				B89D975F19E7BE7900738B7B /* puertovallarta.jpg */,
+				B89D976019E7BE7900738B7B /* tequila.jpg */,
 				B89D975C19E7B07600738B7B /* oaxaca.png */,
 				B89D975A19E7AFD000738B7B /* yucatan.png */,
 				B89D975819E7AFBF00738B7B /* jalisco.png */,
@@ -305,6 +319,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				B89D975B19E7AFD000738B7B /* yucatan.png in Resources */,
+				B89D976219E7BE7900738B7B /* puertovallarta.jpg in Resources */,
 				B89D975119E7AF7900738B7B /* chihuahua.png in Resources */,
 				B8AE468119E64FAA00C32AB7 /* Images.xcassets in Resources */,
 				B8AE467319E64FAA00C32AB7 /* InfoPlist.strings in Resources */,
@@ -314,7 +329,9 @@
 				B89D974419E78AA800738B7B /* next.png in Resources */,
 				B89D975719E7AFA200738B7B /* guanajuato.gif in Resources */,
 				B89D975519E7AF8A00738B7B /* sanluis.png in Resources */,
+				B89D976119E7BE7900738B7B /* guadalajara.jpg in Resources */,
 				B8AE467C19E64FAA00C32AB7 /* Main.storyboard in Resources */,
+				B89D976319E7BE7900738B7B /* tequila.jpg in Resources */,
 				B89D975419E7AF8A00738B7B /* quintanaroo.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -340,6 +357,7 @@
 				B89D974719E78C9100738B7B /* cellState.m in Sources */,
 				B8AE467919E64FAA00C32AB7 /* AppDelegate.m in Sources */,
 				B89D974019E77F4700738B7B /* Friends.m in Sources */,
+				B89D976619E7C08200738B7B /* cellCity.m in Sources */,
 				B8AE467519E64FAA00C32AB7 /* main.m in Sources */,
 				B89D973A19E77C3900738B7B /* States.m in Sources */,
 			);

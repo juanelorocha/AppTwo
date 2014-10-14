@@ -11,5 +11,6 @@
 @interface StateDetail : UIViewController
 @property (strong, nonatomic) IBOutlet UIImageView *imgStateCrest;
 @property (strong, nonatomic) IBOutlet UILabel *lblStateName;
+@property (strong, nonatomic) IBOutlet UILabel *lblSelectedCity;
 
 @end

@@ -8,6 +8,7 @@
 
 #import "StateDetail.h"
 #import "Declarations.h"
+#import "cellCity.h"
 
 @interface StateDetail ()
 
@@ -29,6 +30,34 @@
     [super viewDidLoad];
     // Do any additional setup after loading the view.
     NSLog(@"Selected State Crest %@", strSelectedStateCrest);
+    NSLog(@"Selected State %@", strSelectedState);
+    if ([strSelectedState isEqual:@"JALISCO"]) {
+        NSLog(@"Entre a Jalisco");
+        maCity = [NSMutableArray arrayWithObjects:@"GUADALAJARA", @"PUERTO VALLARTA", @"TEQUILA", nil];
+        maCityPhoto = [NSMutableArray arrayWithObjects:@"guadalajara.jpg", @"puertovallarta.jpg", @"tequila.jpg", nil];
+    }else if ([strSelectedState isEqual:@"CHIAPAS"]) {
+        maCity = [NSMutableArray arrayWithObjects:@"TUXTLA GUTIERREZ", @"SAN CRISTOBAL", @"PALENQUE", nil];
+        maCityPhoto = [NSMutableArray arrayWithObjects:@"guadalajara.jpg", @"jalisco.png", @"tequila.jpg", nil];
+    }else if ([strSelectedState isEqual:@"CHIHUAHUA"]) {
+        maCity = [NSMutableArray arrayWithObjects:@"CHIHUAHUA", @"CIUDAD JUAREZ", @"CIUDAD MADERA", nil];
+        maCityPhoto = [NSMutableArray arrayWithObjects:@"guadalajara.jpg", @"jalisco.png", @"tequila.jpg", nil];
+    }else if ([strSelectedState isEqual:@"OAXACA"]) {
+        maCity = [NSMutableArray arrayWithObjects:@"OAXACA", @"SALINA CRUZ", @"PUERTO ESCONDIDO", nil];
+        maCityPhoto = [NSMutableArray arrayWithObjects:@"guadalajara.jpg", @"jalisco.png", @"tequila.jpg", nil];
+    } else if ([strSelectedState isEqual:@"QUINTANA ROO"]) {
+        maCity = [NSMutableArray arrayWithObjects:@"CANCUN", @"PLAYA DEL CARMEN", @"TULUM", nil];
+        maCityPhoto = [NSMutableArray arrayWithObjects:@"guadalajara.jpg", @"jalisco.png", @"tequila.jpg", nil];
+    } else if ([strSelectedState isEqual:@"YUCATAN"]) {
+        maCity = [NSMutableArray arrayWithObjects:@"MERIDA", @"VALLADOLID", @"CHICHEN ITZA", nil];
+        maCityPhoto = [NSMutableArray arrayWithObjects:@"guadalajara.jpg", @"jalisco.png", @"tequila.jpg", nil];
+    }else if ([strSelectedState isEqual:@"GUANAJUATO"]) {
+        maCity = [NSMutableArray arrayWithObjects:@"GUANAJUATO", @"LEON", @"SAN MIGUEL ALLENDE", nil];
+        maCityPhoto = [NSMutableArray arrayWithObjects:@"guadalajara.jpg", @"jalisco.png", @"tequila.jpg", nil];
+    } else {
+        maCity = [NSMutableArray arrayWithObjects:@"SAN LUIS POTOSI", @"CIUDAD VALLES", @"RIO VERDE", nil];
+        maCityPhoto = [NSMutableArray arrayWithObjects:@"guadalajara.jpg", @"jalisco.png", @"tequila.jpg", nil];
+}
+    
     self.imgStateCrest.image= [UIImage imageNamed:strSelectedStateCrest];
     self.lblStateName.text= strSelectedState;
 }
@@ -49,5 +78,49 @@
     // Pass the selected object to the new view controller.
 }
 */
+
+/**********************************************************************************************
+ Table Functions
+ *********************************************************************************************/
+- (NSInteger)numberOfSectionsInTableView:(UITableView *)tableView
+{
+    return 1;
+}
+//-------------------------------------------------------------------------------
+- (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section
+{
+    return 3;
+}
+//-------------------------------------------------------------------------------
+- (CGFloat)tableView:(UITableView *)tableView heightForRowAtIndexPath:(NSIndexPath *)indexPath
+{
+    return 55;
+}
+//-------------------------------------------------------------------------------
+- (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath
+{
+    //NSLog(@"cellFamily");
+    static NSString *CellIdentifier = @"cellCity";
+    
+    cellCity *cell = (cellCity *)[tableView dequeueReusableCellWithIdentifier:CellIdentifier];
+    if (cell == nil)
+    {
+        cell = [[cellCity alloc] initWithStyle:UITableViewCellStyleDefault reuseIdentifier:CellIdentifier];
+    }
+    
+    cell.lblCityName.text = maCity[indexPath.row];
+    cell.imgCityPhoto.image = [UIImage imageNamed:maCityPhoto[indexPath.row]];
+    return cell;
+}
+
+//-------------------------------------------------------------------------------
+- (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath
+{
+    strSelectedCity = [NSString stringWithFormat:@"%@", maCity[indexPath.row]];
+    strSelectedCityPhoto = [NSString stringWithFormat:@"%@", maCityPhoto[indexPath.row]];
+    self.lblSelectedCity.text = strSelectedCity;
+    self.imgStateCrest.image = [UIImage imageNamed:strSelectedCityPhoto];
+    
+}
 
 @end
