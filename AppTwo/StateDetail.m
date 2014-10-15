@@ -37,25 +37,25 @@
         maCityPhoto = [NSMutableArray arrayWithObjects:@"guadalajara.jpg", @"puertovallarta.jpg", @"tequila.jpg", nil];
     }else if ([strSelectedState isEqual:@"CHIAPAS"]) {
         maCity = [NSMutableArray arrayWithObjects:@"TUXTLA GUTIERREZ", @"SAN CRISTOBAL", @"PALENQUE", nil];
-        maCityPhoto = [NSMutableArray arrayWithObjects:@"guadalajara.jpg", @"jalisco.png", @"tequila.jpg", nil];
+        maCityPhoto = [NSMutableArray arrayWithObjects:@"tuxtla.jpg", @"sancristobal.jpg", @"palenque.jpg", nil];
     }else if ([strSelectedState isEqual:@"CHIHUAHUA"]) {
         maCity = [NSMutableArray arrayWithObjects:@"CHIHUAHUA", @"CIUDAD JUAREZ", @"CIUDAD MADERA", nil];
-        maCityPhoto = [NSMutableArray arrayWithObjects:@"guadalajara.jpg", @"jalisco.png", @"tequila.jpg", nil];
+        maCityPhoto = [NSMutableArray arrayWithObjects:@"chihuahua.png", @"juarez.jpg", @"madera.jpg", nil];
     }else if ([strSelectedState isEqual:@"OAXACA"]) {
         maCity = [NSMutableArray arrayWithObjects:@"OAXACA", @"SALINA CRUZ", @"PUERTO ESCONDIDO", nil];
-        maCityPhoto = [NSMutableArray arrayWithObjects:@"guadalajara.jpg", @"jalisco.png", @"tequila.jpg", nil];
+        maCityPhoto = [NSMutableArray arrayWithObjects:@"oaxacac.jpg", @"salina.jpg", @"escondido.jpg", nil];
     } else if ([strSelectedState isEqual:@"QUINTANA ROO"]) {
         maCity = [NSMutableArray arrayWithObjects:@"CANCUN", @"PLAYA DEL CARMEN", @"TULUM", nil];
-        maCityPhoto = [NSMutableArray arrayWithObjects:@"guadalajara.jpg", @"jalisco.png", @"tequila.jpg", nil];
+        maCityPhoto = [NSMutableArray arrayWithObjects:@"cancun.jpg", @"carmen.jpg", @"tulum.jpg", nil];
     } else if ([strSelectedState isEqual:@"YUCATAN"]) {
         maCity = [NSMutableArray arrayWithObjects:@"MERIDA", @"VALLADOLID", @"CHICHEN ITZA", nil];
-        maCityPhoto = [NSMutableArray arrayWithObjects:@"guadalajara.jpg", @"jalisco.png", @"tequila.jpg", nil];
+        maCityPhoto = [NSMutableArray arrayWithObjects:@"merida.jpg", @"valadolid.jpg", @"chichen.jpg", nil];
     }else if ([strSelectedState isEqual:@"GUANAJUATO"]) {
         maCity = [NSMutableArray arrayWithObjects:@"GUANAJUATO", @"LEON", @"SAN MIGUEL ALLENDE", nil];
-        maCityPhoto = [NSMutableArray arrayWithObjects:@"guadalajara.jpg", @"jalisco.png", @"tequila.jpg", nil];
+        maCityPhoto = [NSMutableArray arrayWithObjects:@"guanajuatoc.jpg", @"leon.jpg", @"sanmiguel.jpg", nil];
     } else {
         maCity = [NSMutableArray arrayWithObjects:@"SAN LUIS POTOSI", @"CIUDAD VALLES", @"RIO VERDE", nil];
-        maCityPhoto = [NSMutableArray arrayWithObjects:@"guadalajara.jpg", @"jalisco.png", @"tequila.jpg", nil];
+        maCityPhoto = [NSMutableArray arrayWithObjects:@"sanluisc.jpg", @"valles.jpg", @"rioverde.jpg", nil];
 }
     
     self.imgStateCrest.image= [UIImage imageNamed:strSelectedStateCrest];
