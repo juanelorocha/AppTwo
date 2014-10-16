@@ -7,6 +7,18 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B82C05FA19EE45F800803D02 /* adauco.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B82C05EE19EE45F800803D02 /* adauco.jpg */; };
+		B82C05FB19EE45F800803D02 /* alan.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B82C05EF19EE45F800803D02 /* alan.jpg */; };
+		B82C05FC19EE45F800803D02 /* azucena.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B82C05F019EE45F800803D02 /* azucena.jpg */; };
+		B82C05FD19EE45F800803D02 /* cesar.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B82C05F119EE45F800803D02 /* cesar.jpg */; };
+		B82C05FE19EE45F800803D02 /* deya.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B82C05F219EE45F800803D02 /* deya.jpg */; };
+		B82C05FF19EE45F800803D02 /* erika.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B82C05F319EE45F800803D02 /* erika.jpg */; };
+		B82C060019EE45F800803D02 /* gus.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B82C05F419EE45F800803D02 /* gus.jpg */; };
+		B82C060119EE45F800803D02 /* milton.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B82C05F519EE45F800803D02 /* milton.jpg */; };
+		B82C060219EE45F800803D02 /* nubia.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B82C05F619EE45F800803D02 /* nubia.jpg */; };
+		B82C060319EE45F800803D02 /* pollo.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B82C05F719EE45F800803D02 /* pollo.jpg */; };
+		B82C060419EE45F800803D02 /* vega.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B82C05F819EE45F800803D02 /* vega.jpg */; };
+		B82C060519EE45F800803D02 /* yarib.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B82C05F919EE45F800803D02 /* yarib.jpg */; };
 		B89B53FB19EE14F0001FE807 /* cancun.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B89B53E719EE14F0001FE807 /* cancun.jpg */; };
 		B89B53FC19EE14F0001FE807 /* carmen.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B89B53E819EE14F0001FE807 /* carmen.jpg */; };
 		B89B53FD19EE14F0001FE807 /* chichen.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B89B53E919EE14F0001FE807 /* chichen.jpg */; };
@@ -28,6 +40,7 @@
 		B89B540D19EE14F0001FE807 /* valadolid.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B89B53F919EE14F0001FE807 /* valadolid.jpg */; };
 		B89B540E19EE14F0001FE807 /* valles.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B89B53FA19EE14F0001FE807 /* valles.jpg */; };
 		B89B541019EE173B001FE807 /* juarez.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B89B540F19EE173B001FE807 /* juarez.jpg */; };
+		B89B541319EE2DC1001FE807 /* FriendCell.m in Sources */ = {isa = PBXBuildFile; fileRef = B89B541219EE2DC1001FE807 /* FriendCell.m */; };
 		B89D973A19E77C3900738B7B /* States.m in Sources */ = {isa = PBXBuildFile; fileRef = B89D973919E77C3900738B7B /* States.m */; };
 		B89D973D19E77E1D00738B7B /* StateDetail.m in Sources */ = {isa = PBXBuildFile; fileRef = B89D973C19E77E1D00738B7B /* StateDetail.m */; };
 		B89D974019E77F4700738B7B /* Friends.m in Sources */ = {isa = PBXBuildFile; fileRef = B89D973F19E77F4700738B7B /* Friends.m */; };
@@ -73,6 +86,18 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		B82C05EE19EE45F800803D02 /* adauco.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = adauco.jpg; path = Images/adauco.jpg; sourceTree = "<group>"; };
+		B82C05EF19EE45F800803D02 /* alan.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = alan.jpg; path = Images/alan.jpg; sourceTree = "<group>"; };
+		B82C05F019EE45F800803D02 /* azucena.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = azucena.jpg; path = Images/azucena.jpg; sourceTree = "<group>"; };
+		B82C05F119EE45F800803D02 /* cesar.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = cesar.jpg; path = Images/cesar.jpg; sourceTree = "<group>"; };
+		B82C05F219EE45F800803D02 /* deya.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = deya.jpg; path = Images/deya.jpg; sourceTree = "<group>"; };
+		B82C05F319EE45F800803D02 /* erika.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = erika.jpg; path = Images/erika.jpg; sourceTree = "<group>"; };
+		B82C05F419EE45F800803D02 /* gus.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = gus.jpg; path = Images/gus.jpg; sourceTree = "<group>"; };
+		B82C05F519EE45F800803D02 /* milton.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = milton.jpg; path = Images/milton.jpg; sourceTree = "<group>"; };
+		B82C05F619EE45F800803D02 /* nubia.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = nubia.jpg; path = Images/nubia.jpg; sourceTree = "<group>"; };
+		B82C05F719EE45F800803D02 /* pollo.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = pollo.jpg; path = Images/pollo.jpg; sourceTree = "<group>"; };
+		B82C05F819EE45F800803D02 /* vega.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = vega.jpg; path = Images/vega.jpg; sourceTree = "<group>"; };
+		B82C05F919EE45F800803D02 /* yarib.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = yarib.jpg; path = Images/yarib.jpg; sourceTree = "<group>"; };
 		B89B53E719EE14F0001FE807 /* cancun.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = cancun.jpg; path = Images/cancun.jpg; sourceTree = "<group>"; };
 		B89B53E819EE14F0001FE807 /* carmen.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = carmen.jpg; path = Images/carmen.jpg; sourceTree = "<group>"; };
 		B89B53E919EE14F0001FE807 /* chichen.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = chichen.jpg; path = Images/chichen.jpg; sourceTree = "<group>"; };
@@ -94,6 +119,8 @@
 		B89B53F919EE14F0001FE807 /* valadolid.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = valadolid.jpg; path = Images/valadolid.jpg; sourceTree = "<group>"; };
 		B89B53FA19EE14F0001FE807 /* valles.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = valles.jpg; path = Images/valles.jpg; sourceTree = "<group>"; };
 		B89B540F19EE173B001FE807 /* juarez.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = juarez.jpg; path = Images/juarez.jpg; sourceTree = "<group>"; };
+		B89B541119EE2DC1001FE807 /* FriendCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FriendCell.h; sourceTree = "<group>"; };
+		B89B541219EE2DC1001FE807 /* FriendCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FriendCell.m; sourceTree = "<group>"; };
 		B89D973819E77C3900738B7B /* States.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = States.h; sourceTree = "<group>"; };
 		B89D973919E77C3900738B7B /* States.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = States.m; sourceTree = "<group>"; };
 		B89D973B19E77E1D00738B7B /* StateDetail.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StateDetail.h; sourceTree = "<group>"; };
@@ -170,6 +197,8 @@
 				B89D974619E78C9100738B7B /* cellState.m */,
 				B89D976419E7C08200738B7B /* cellCity.h */,
 				B89D976519E7C08200738B7B /* cellCity.m */,
+				B89B541119EE2DC1001FE807 /* FriendCell.h */,
+				B89B541219EE2DC1001FE807 /* FriendCell.m */,
 			);
 			name = Customized;
 			sourceTree = "<group>";
@@ -177,6 +206,18 @@
 		B89D974219E78A8D00738B7B /* Images */ = {
 			isa = PBXGroup;
 			children = (
+				B82C05EE19EE45F800803D02 /* adauco.jpg */,
+				B82C05EF19EE45F800803D02 /* alan.jpg */,
+				B82C05F019EE45F800803D02 /* azucena.jpg */,
+				B82C05F119EE45F800803D02 /* cesar.jpg */,
+				B82C05F219EE45F800803D02 /* deya.jpg */,
+				B82C05F319EE45F800803D02 /* erika.jpg */,
+				B82C05F419EE45F800803D02 /* gus.jpg */,
+				B82C05F519EE45F800803D02 /* milton.jpg */,
+				B82C05F619EE45F800803D02 /* nubia.jpg */,
+				B82C05F719EE45F800803D02 /* pollo.jpg */,
+				B82C05F819EE45F800803D02 /* vega.jpg */,
+				B82C05F919EE45F800803D02 /* yarib.jpg */,
 				B89B540F19EE173B001FE807 /* juarez.jpg */,
 				B89B53E719EE14F0001FE807 /* cancun.jpg */,
 				B89B53E819EE14F0001FE807 /* carmen.jpg */,
@@ -381,26 +422,34 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B82C060019EE45F800803D02 /* gus.jpg in Resources */,
 				B89D975B19E7AFD000738B7B /* yucatan.png in Resources */,
 				B89B540919EE14F0001FE807 /* sanluisc.jpg in Resources */,
 				B89B540119EE14F0001FE807 /* leon.jpg in Resources */,
 				B89B53FB19EE14F0001FE807 /* cancun.jpg in Resources */,
 				B89B540E19EE14F0001FE807 /* valles.jpg in Resources */,
 				B89D976219E7BE7900738B7B /* puertovallarta.jpg in Resources */,
+				B82C05FA19EE45F800803D02 /* adauco.jpg in Resources */,
+				B82C05FB19EE45F800803D02 /* alan.jpg in Resources */,
 				B89B540419EE14F0001FE807 /* oaxacac.jpg in Resources */,
 				B89D975119E7AF7900738B7B /* chihuahua.png in Resources */,
 				B8AE468119E64FAA00C32AB7 /* Images.xcassets in Resources */,
 				B89B540C19EE14F0001FE807 /* tuxtla.jpg in Resources */,
 				B89B540A19EE14F0001FE807 /* sanmiguel.jpg in Resources */,
+				B82C060319EE45F800803D02 /* pollo.jpg in Resources */,
+				B82C060519EE45F800803D02 /* yarib.jpg in Resources */,
 				B89B540019EE14F0001FE807 /* guanajuatoc.jpg in Resources */,
 				B8AE467319E64FAA00C32AB7 /* InfoPlist.strings in Resources */,
 				B89D975919E7AFBF00738B7B /* jalisco.png in Resources */,
+				B82C060419EE45F800803D02 /* vega.jpg in Resources */,
 				B89D975019E7AF7900738B7B /* chiapas.png in Resources */,
 				B89D975D19E7B07600738B7B /* oaxaca.png in Resources */,
 				B89B540319EE14F0001FE807 /* merida.jpg in Resources */,
+				B82C060119EE45F800803D02 /* milton.jpg in Resources */,
 				B89B540B19EE14F0001FE807 /* tulum.jpg in Resources */,
 				B89B541019EE173B001FE807 /* juarez.jpg in Resources */,
 				B89B53FE19EE14F0001FE807 /* chihuahua.jpg in Resources */,
+				B82C05FD19EE45F800803D02 /* cesar.jpg in Resources */,
 				B89D974419E78AA800738B7B /* next.png in Resources */,
 				B89B53FD19EE14F0001FE807 /* chichen.jpg in Resources */,
 				B89B540D19EE14F0001FE807 /* valadolid.jpg in Resources */,
@@ -412,8 +461,12 @@
 				B89B540719EE14F0001FE807 /* salina.jpg in Resources */,
 				B89D976119E7BE7900738B7B /* guadalajara.jpg in Resources */,
 				B89B540819EE14F0001FE807 /* sancristobal.jpg in Resources */,
+				B82C060219EE45F800803D02 /* nubia.jpg in Resources */,
+				B82C05FE19EE45F800803D02 /* deya.jpg in Resources */,
 				B89B53FF19EE14F0001FE807 /* escondido.jpg in Resources */,
 				B8AE467C19E64FAA00C32AB7 /* Main.storyboard in Resources */,
+				B82C05FC19EE45F800803D02 /* azucena.jpg in Resources */,
+				B82C05FF19EE45F800803D02 /* erika.jpg in Resources */,
 				B89D976319E7BE7900738B7B /* tequila.jpg in Resources */,
 				B89B540619EE14F0001FE807 /* rioverde.jpg in Resources */,
 				B89D975419E7AF8A00738B7B /* quintanaroo.png in Resources */,
@@ -442,6 +495,7 @@
 				B8AE467919E64FAA00C32AB7 /* AppDelegate.m in Sources */,
 				B89D974019E77F4700738B7B /* Friends.m in Sources */,
 				B89D976619E7C08200738B7B /* cellCity.m in Sources */,
+				B89B541319EE2DC1001FE807 /* FriendCell.m in Sources */,
 				B8AE467519E64FAA00C32AB7 /* main.m in Sources */,
 				B89D973A19E77C3900738B7B /* States.m in Sources */,
 			);

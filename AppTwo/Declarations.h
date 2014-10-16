@@ -14,6 +14,11 @@ extern  NSMutableArray *maStates;
 extern  NSMutableArray *maStateCrest;
 extern  NSMutableArray *maCity;
 extern  NSMutableArray *maCityPhoto;
+extern  NSMutableArray *maFriendsPhoto;
+extern  NSMutableArray *maFriendsName;
+extern  NSMutableArray *maFriendsSurName;
+extern  NSMutableArray *maFriendsAge;
+
 
 extern  NSString        *strSelectedState;
 extern  NSString        *strSelectedStateCrest;

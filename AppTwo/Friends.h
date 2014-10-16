@@ -9,5 +9,9 @@
 #import <UIKit/UIKit.h>
 
 @interface Friends : UIViewController
+@property (strong, nonatomic) IBOutlet UISegmentedControl *scFriends;
+
+- (IBAction)scFriends:(id)sender;
+@property (strong, nonatomic) IBOutlet UITableView *tbMyTable;
 
 @end

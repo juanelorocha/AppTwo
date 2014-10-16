@@ -14,6 +14,10 @@ NSMutableArray *maStates;
 NSMutableArray *maStateCrest;
 NSMutableArray *maCity;
 NSMutableArray *maCityPhoto;
+NSMutableArray *maFriendsPhoto;
+NSMutableArray *maFriendsName;
+NSMutableArray *maFriendsSurName;
+NSMutableArray *maFriendsAge;
 
 NSString        *strSelectedState;
 NSString        *strSelectedStateCrest;
